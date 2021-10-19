@@ -1,0 +1,198 @@
+/*Zera valores de padding e margin*/
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*imagem do Home*/
+.hero-image {
+ 
+  background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(255,255,255, 0.3)), url("../src/images/capa.jpg");
+
+  height: 700px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  font-family: arial !important;
+}
+.hero-text button {
+  border-radius: 30px;
+}
+
+
+/*sombreamento do navbar:*/
+.nav-shadow {
+  box-shadow: 0px 3px 20px #696969;
+}
+
+/*espaçamento entre as colunas da sessão serviços prestados*/
+.col-services {
+  padding: 15px 5px;
+}
+/*separação da sessao serviços*/
+#servicos, #sobre, #galeria, #contato {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+/*texto com margin e fonte arial (Sub-títulos do Site)*/
+.text-space {
+  margin: 30px 0;
+  font-family: arial;
+}
+
+/*Linha escura: */
+.dark-row {
+  background: linear-gradient(to left, rgba(47,79,79, 0.8), rgba(47,79,79, 1));
+}
+.text-carousel {
+  overflow-wrap: break-word;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Sessão de contato*/
+#contato .col-sm-6 {
+  padding: 20px 40px;
+}
+
+/*icones e texto da sessao de contato*/
+.svg {
+  width: 35px; 
+  height: 30px; 
+  float: left; 
+  margin: 0px 25px 0px 0px;
+}
+.text-info {
+  margin-top: 50px;
+  font-family: arial;
+  font-size: 18px;
+}
+
+/*Estilo da Galeria (centraliza a imagem na div -para não perder resolução-):*/
+
+.galery-img {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Estilo do rodapé:*/
+
+.rodape{
+  padding: 20px;
+}
+.rodape .col-sm-12 {
+  text-align: center;
+}
+.rodape a {
+  color: white;
+}
+.rodape a:hover {
+  color: white;
+}
+
+.link-rodape a {
+  margin-left: 20px;
+}
+
+.link-rodape {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.rodape p {
+  margin: 30px 0;
+  font-size: 15px;
+}
+.bg-black {
+  background-color: black;
+  padding: 0px;
+}
+/*Icones de resdes sociais:*/
+.rodape .social-icons {
+  float: left;
+  padding: 5px;
+  width: 40%;
+  margin: 0 30%;
+}
+
+.rodape .facebook:hover {
+    color:  #0000CD;
+}
+
+.rodape .instagram:hover {
+    color: purple;
+}
+
+.rodape .youtube:hover {
+    color: #B22222;
+}
+.youtube {
+  width: 28%;
+  float: left;
+  margin-right: 17%;
+}
+.instagram {
+  width: 22%;
+  float: left;
+  margin-left: 17%;
+}
+.facebook {
+  width: 16%;  
+  float: left;
+}
+
+/*estilo do admin.php*/
+
+.btn-lixo {
+  border-top-right-radius: 0 !important; 
+  border-top-left-radius: 0 !important;
+}
+
+.img-add img {
+  height: 245px !important;
+  width: 50%;
+  margin: 0 25%;
+
+}
+.img-add {
+  background-color: #4F4F4F;
+}
+.img-add:hover {
+  background-color: #696969;
+}
+
+/*Estilo login*/
+
+.login { 
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.login img {
+  width: 50%;
+  margin: 5% 25%;
+}
+.login a {
+  float: right;
+  margin: 8px 0;
+}
+.login button {
+  width: 25%;
+  margin: 5px 0;
+}
